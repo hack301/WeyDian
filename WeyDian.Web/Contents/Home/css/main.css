@@ -227,7 +227,7 @@ a:before, a:after {
 	text-align: center;
 	background-attachment: relative;
 	/*background-position: center center;*/
-	/*min-height: 650px;*/
+	min-height: 640px;
 	width: 100%;
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
@@ -238,7 +238,7 @@ a:before, a:after {
 	-o-background-size: cover;
 	background-size: cover;
 	/*padding-bottom: 100px;*/
-	margin-top: 70px;
+	/*margin-top: 5px;*/
 }
 #headerwrap h1 {
 	color: #fff;

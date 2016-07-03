@@ -94,6 +94,7 @@
     <Content Include="Contents\Home\css\font-awesome.css" />
     <Content Include="Contents\Home\css\font-awesome.min.css" />
     <Content Include="Contents\Home\css\main.css" />
+    <Content Include="Contents\Home\css\slider.css" />
     <Content Include="Contents\Home\fonts\fontawesome-webfont.svg" />
     <Content Include="Contents\Home\img\about\about1.jpg" />
     <Content Include="Contents\Home\img\Add\01.jpg" />
@@ -122,12 +123,16 @@
     <Content Include="Contents\Home\js\jquery.min.js" />
     <Content Include="Contents\Home\js\modernizr.custom.js" />
     <Content Include="Contents\Home\js\retina.js" />
+    <Content Include="Contents\Home\js\slide.js" />
     <Content Include="Contents\Home\js\smoothscroll.js" />
-    <Content Include="Contents\Home\logo.png" />
-    <Content Include="Contents\Home\logoq.png" />
-    <Content Include="Contents\Home\logo_1.png" />
-    <Content Include="Contents\Home\logo_2.png" />
-    <Content Include="Contents\Home\img\logo.png" />
+    <Content Include="Contents\Home\slider\ad_ctr.png" />
+    <Content Include="Contents\Home\slider\alpha.png" />
+    <Content Include="Contents\Home\slider\banner1.jpg" />
+    <Content Include="Contents\Home\slider\banner2.jpg" />
+    <Content Include="Contents\Home\slider\banner3.jpg" />
+    <Content Include="Contents\Home\slider\dot.png" />
+    <Content Include="Contents\Home\js\slider.js" />
+    <Content Include="Contents\logo.png" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>

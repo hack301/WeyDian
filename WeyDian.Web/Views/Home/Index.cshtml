@@ -10,8 +10,7 @@
     <link href="~/Contents/Home/css/main.css" rel="stylesheet">
     <link href="~/Contents/Home/css/font-awesome.min.css" rel="stylesheet">
     <link href="~/Contents/Home/css/animate-custom.css" rel="stylesheet">
-    @*<link href='http://fonts.useso.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>*@
+    <link href="~/Contents/Home/css/slider.css" rel="stylesheet" />
     <script src="~/Contents/Home/js/jquery.min.js"></script>
     <script type="text/javascript" src="~/Contents/Home/js/modernizr.custom.js"></script>
 
@@ -21,7 +20,6 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-
 </head>
 <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
     <div id="navbar-main">
@@ -32,17 +30,17 @@
                     @*<a class="navbar-brand" href="#home">
                      
                     </a>*@
-                    <a href="#home"><img src="~/Contents/Home/img/logo.png" style="height:58px" /></a>
+                    <a href="#home"><img src="~/Contents/logo.png" style="height:58px" /></a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right" style="font-family:微软雅黑">
-                        <li> <a href="#home" class="smoothScroll">Home</a></li>
+                        <li> <a href="#headerwrap" class="smoothScroll">Home</a></li>
                         <li> <a href="#services" class="smoothScroll">解决方案</a></li>
                         <li> <a href="#portfolio" class="smoothScroll">成功案例</a></li>
                         <li> <a href="#team" class="smoothScroll">团队</a></li>
                         <li> <a href="#about" class="smoothScroll">关于我们</a></li>
-                        <li> <a href="#contact" class="smoothScroll">联系我们</a></li>
+                        <li> <a href="#contacts" class="smoothScroll">联系我们</a></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
@@ -52,15 +50,35 @@
 
     <!-- ==== HEADERWRAP ==== -->
     <div id="headerwrap" name="home">
-        @*<header class="clearfix">
-            <h1>Design, Development, Marketing.</h1>
-            <p>
-                Lorem ipsum dolor sit amet, cu menandri molestiae voluptaria eam,<br>
-                invidunt reprehendunt nec ei. Sonet regione consulatu vel id.
-            </p>
-            <a href="#portfolio" class="smoothScroll btn btn-lg">See Our Works</a>
-        </header>*@
-        <div class="carousel slide" id="carousel-938688">
+            <div id="banner_tabs" class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <a title="" target="_blank" href="#">
+                            <img width="1920" height="482" alt="" style="background: url(../../Contents/Home/slider/banner1.jpg) no-repeat center;" >
+                        </a>
+                    </li>
+                    <li>
+                        <a title="" href="#">
+                            <img width="1920" height="482" alt="" style="background: url(../../Contents/Home/slider/banner2.jpg) no-repeat center;">
+                        </a>
+                    </li>
+                    <li>
+                        <a title="" href="#">
+                            <img width="1920" height="482" alt="" style="background: url(../../Contents/Home/slider/banner3.jpg) no-repeat center;" >
+                        </a>
+                    </li>
+                </ul>
+                <ul class="flex-direction-nav">
+                    <li><a class="flex-prev" href="javascript:;">Previous</a></li>
+                    <li><a class="flex-next" href="javascript:;">Next</a></li>
+                </ul>
+                <ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+                    <li><a>1</a></li>
+                    <li><a>2</a></li>
+                    <li><a>2</a></li>
+                </ol>
+            </div>
+       @*<div class="carousel slide" id="carousel-938688">
             <ol class="carousel-indicators">
                 <li data-slide-to="0" data-target="#carousel-938688">&nbsp;</li>
                 <li class="active" data-slide-to="1" data-target="#carousel-938688">&nbsp;</li>
@@ -96,7 +114,7 @@
                 </div>
             </div>
             <a class="left carousel-control" data-slide="prev" href="#carousel-938688">&lsaquo;</a> <a class="right carousel-control" data-slide="next" href="#carousel-938688">&rsaquo;</a>
-        </div>
+        </div>*@
 
     </div>
     <!-- /headerwrap -->
@@ -386,7 +404,7 @@
     </div>
     <!-- container -->
     <!-- ==== CONTACT ==== -->
-    <div id="contact" name="contact">
+    <div id="contacts" name="contact">
         <div class="container">
             <div class="row">
                 <h2 class="centered">Contact Us</h2>
@@ -452,11 +470,30 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
     <script type="text/javascript" src="~/Contents/Home/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="~/Contents/Home/js/retina.js"></script>
     <script type="text/javascript" src="~/Contents/Home/js/jquery.easing.1.3.js"></script>
+    <script src="~/Contents/Home/js/slider.js"></script>
     <script type="text/javascript" src="~/Contents/Home/js/smoothscroll.js"></script>
     <script type="text/javascript" src="~/Contents/Home/js/jquery-func.js"></script>
     </body>
 </html>
+<script type="text/javascript">
+$(function() {
+	var bannerSlider = new Slider($('#banner_tabs'), {
+		time: 5000,
+		delay: 400,
+		event: 'hover',
+		auto: true,
+		mode: 'fade',
+		controller: $('#bannerCtrl'),
+		activeControllerCls: 'active'
+	});
+	$('#banner_tabs .flex-prev').click(function() {
+	    bannerSlider.prev();
+	});
+	$('#banner_tabs .flex-next').click(function() {
+	    bannerSlider.next();
+	});
+})
+</script>
