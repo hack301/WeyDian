@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EE8C2D18-34C9-4C99-9C35-3EF16F0C65B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{5CDC4BDF-8147-40C7-8BF0-18FC1F6876C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A204C6D8-B14A-47A5-A4AB-FCD7C54C8385}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceLib", "ReferenceLib", "{AD941B25-AC98-461E-8665-C5BBC095F7A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{91A8A463-720E-4E9A-B070-AC3879272298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{A4DDFF01-1B77-4EFC-B98C-92309CE1EE4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeyDian.Web", "WeyDian.Web\WeyDian.Web.csproj", "{D75229A6-3C24-4638-8B37-8059E81AB811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4DDFF01-1B77-4EFC-B98C-92309CE1EE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DDFF01-1B77-4EFC-B98C-92309CE1EE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DDFF01-1B77-4EFC-B98C-92309CE1EE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DDFF01-1B77-4EFC-B98C-92309CE1EE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75229A6-3C24-4638-8B37-8059E81AB811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75229A6-3C24-4638-8B37-8059E81AB811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75229A6-3C24-4638-8B37-8059E81AB811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75229A6-3C24-4638-8B37-8059E81AB811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4DDFF01-1B77-4EFC-B98C-92309CE1EE4C} = {EE8C2D18-34C9-4C99-9C35-3EF16F0C65B9}
+		{D75229A6-3C24-4638-8B37-8059E81AB811} = {5CDC4BDF-8147-40C7-8BF0-18FC1F6876C7}
+	EndGlobalSection
+EndGlobal
