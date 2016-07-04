@@ -223,21 +223,18 @@ a:before, a:after {
 
 #headerwrap {
 	/*background: url(../img/header_bg.jpg) no-repeat center top;*/
-	/*padding-top: 200px;*/
 	text-align: center;
-	background-attachment: relative;
-	/*background-position: center center;*/
-	min-height: 640px;
+	/*background-attachment: relative;
+	background-position: center center;*/
 	width: 100%;
-	-webkit-background-size: 100%;
+	/*-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
 	background-size: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-	/*padding-bottom: 100px;*/
+	background-size: cover;*/
 	/*margin-top: 5px;*/
 }
 #headerwrap h1 {
@@ -271,7 +268,7 @@ a:before, a:after {
 }
 #about {
 	background: #fff;
-	padding-top: 80px;
+	padding: 160px;
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 60px;
@@ -281,7 +278,7 @@ a:before, a:after {
 }
 #services {
 	background: url(../img/bg.jpg) no-repeat center center fixed;
-	padding: 60px 0;
+	padding: 120px 0;
 	text-align: center;
 	background-size: cover;
 }
@@ -315,7 +312,7 @@ a:before, a:after {
 }
 #team {
 	background: url(../img/bg.jpg) no-repeat center center fixed;
-	padding: 60px 0;
+	padding: 120px 0;
 	text-align: center;
 	background-size: cover;
 }
@@ -368,14 +365,14 @@ a:before, a:after {
 }
 #portfolio {
 	background-color: #fff;
-	padding: 60px 0;
+	padding: 120px 0;
 }
 #portfolio .btn-default {
 	border: 0;
 }
 #contact {
 	background: #fff;
-	padding: 60px 0;
+	padding: 120px 0;
 	text-align: center;
 }
 #contact .form {

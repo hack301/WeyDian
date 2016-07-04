@@ -123,13 +123,14 @@
     <Content Include="Contents\Home\js\jquery.min.js" />
     <Content Include="Contents\Home\js\modernizr.custom.js" />
     <Content Include="Contents\Home\js\retina.js" />
-    <Content Include="Contents\Home\js\slide.js" />
     <Content Include="Contents\Home\js\smoothscroll.js" />
+    <Content Include="Contents\Home\slider\01.jpg" />
     <Content Include="Contents\Home\slider\ad_ctr.png" />
     <Content Include="Contents\Home\slider\alpha.png" />
     <Content Include="Contents\Home\slider\banner1.jpg" />
     <Content Include="Contents\Home\slider\banner2.jpg" />
     <Content Include="Contents\Home\slider\banner3.jpg" />
+    <Content Include="Contents\Home\slider\banner_1.jpg" />
     <Content Include="Contents\Home\slider\dot.png" />
     <Content Include="Contents\Home\js\slider.js" />
     <Content Include="Contents\logo.png" />

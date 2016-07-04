@@ -1,0 +1,17 @@
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\csc.exe
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\vbc.exe
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\VBCSCompiler.exe
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\WeyDian.HomeWeb.dll
+D:\C#\WeyDian.com\WeyDian.HomeWeb\bin\WeyDian.HomeWeb.pdb
+D:\C#\WeyDian.com\WeyDian.HomeWeb\obj\Debug\WeyDian.HomeWeb.csprojResolveAssemblyReference.cache
+D:\C#\WeyDian.com\WeyDian.HomeWeb\obj\Debug\WeyDian.HomeWeb.dll
+D:\C#\WeyDian.com\WeyDian.HomeWeb\obj\Debug\WeyDian.HomeWeb.pdb
